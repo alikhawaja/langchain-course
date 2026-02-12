@@ -14,3 +14,9 @@ uv add langchain-google-genai
 create openai account+key
 create gemini account+key
 set values in .env
+
+1. prompt templates
+2. chat models
+3. chain, how to chain
+4. lcel langchain expression language
+5. runnable interface
