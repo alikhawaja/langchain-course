@@ -1,0 +1,15 @@
+UV is a high-performance Python package and project manager 
+written in Rust, designed to replace tools like pip, pip-tools, 
+pipx, poetry, pyenv, twine, and virtualenv in a single, unified CLI. 
+ 
+It offers 10–100x faster dependency installation and resolution 
+compared to pip, while also managing Python versions, virtual 
+environments, and project packaging seamlessly.
+
+pip install uv
+uv init
+uv add langchain langchain-openai langchain-gemini
+
+create openai account+key
+create gemini account+key
+set values in .env
