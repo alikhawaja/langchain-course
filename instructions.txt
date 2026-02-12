@@ -8,7 +8,8 @@ environments, and project packaging seamlessly.
 
 pip install uv
 uv init
-uv add langchain langchain-openai langchain-gemini
+uv add langchain langchain-openai
+uv add langchain-google-genai
 
 create openai account+key
 create gemini account+key

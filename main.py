@@ -1,5 +1,12 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 def main():
     print("Hello from langchain-course!")
+    print("OpenAI API Key:", os.getenv("OPENAI_API_KEY"))
+    print("Gemini API Key:", os.getenv("GEMINI_API_KEY"))
 
 
 if __name__ == "__main__":
